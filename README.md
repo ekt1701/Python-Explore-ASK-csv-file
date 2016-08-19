@@ -5,6 +5,7 @@ This is a Python script that downloads the Alexa Skills listings csv file.  Then
 The reason I made this as a script instead of a skill, is that once you download the csv file, there is no delay in accessing the data.  With a skill, there can be a delay in reading the csv file (1.5MB in size) over the internet.  I don't know if there is a way to cache the file during a session.  Also, depending on what you search for, there can be a lot of information, so its easier to read it.
 
 Updated on Aug 19, 2016
+
 With the help of James Church https://github.com/jcchurch, this script has a command line option while running in the terminal.
 
 At the command prompt you can enter the following commands:
