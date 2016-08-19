@@ -8,12 +8,18 @@ With the help of James Church https://github.com/jcchurch, this script has a com
 
 At the command prompt you can enter the following commands:
 
-help #Shows the commands available
-when #Shows date when csv file was updated
+help #Shows the commands available.
+
+when #Shows date when csv file was updated.
+
 down #Downloads the csv file to the same directory as this script.
+
 number #Shows the current number of skills.
+
 date 2016-08-12 #Displays all skills released on that date.
+
 name yeti #Shows all skills that matched the name entered.
+
 desc yeti #Shows the description of the skill entered
 author james #Shows all skills created by the author's name.
 how yeti #Shows the invocation for the skill.
