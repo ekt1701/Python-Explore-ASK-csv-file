@@ -20,9 +20,12 @@ date 2016-08-12 #Displays all skills released on that date.
 
 name yeti #Shows all skills that matched the name entered.
 
-desc yeti #Shows the description of the skill entered
+desc yeti #Shows the description of the skill entered.
+
 author james #Shows all skills created by the author's name.
+
 how yeti #Shows the invocation for the skill.
-info yeti #Shows complete information for the skill entered
+
+info yeti #Shows complete information for the skill entered.
 
 
