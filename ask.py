@@ -3,25 +3,16 @@ import urllib2
 import urllib
 import csv
 import re
-import cmd
-import sys
-
-
-
 
 keepGoing = True
-
-
 
 def dateupdated():
     url = "https://github.com/dale3h/alexa-skills-list/blob/master/skills.csv"
     file = urllib.urlopen(url)
     text = file.read()
-
     datelocation = 'datetime="(.+?)Z'
     datepattern = re.compile(datelocation)
     date = re.findall(datepattern,text)
-
     print(date)
     return
 
